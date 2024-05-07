@@ -364,13 +364,13 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Button Demo')
 
 # Load images
-conn4_img = pygame.image.load('Connect/conn4.png').convert_alpha()
-conn5_img = pygame.image.load('Connect/conn5.png').convert_alpha()
-level_img = pygame.image.load('Connect/level.png').convert_alpha()
-exit_img = pygame.image.load('Connect/exit.png').convert_alpha()
-easy_img = pygame.image.load('Connect/easy.png').convert_alpha()
-medium_img = pygame.image.load('Connect/medium.png').convert_alpha()
-hard_img = pygame.image.load('Connect/hard.png').convert_alpha()
+conn4_img = pygame.image.load('Images/conn4.png').convert_alpha()
+conn5_img = pygame.image.load('Images/conn5.png').convert_alpha()
+level_img = pygame.image.load('Images/level.png').convert_alpha()
+exit_img = pygame.image.load('Images/exit.png').convert_alpha()
+easy_img = pygame.image.load('Images/easy.png').convert_alpha()
+medium_img = pygame.image.load('Images/medium.png').convert_alpha()
+hard_img = pygame.image.load('Images/hard.png').convert_alpha()
 
 # Create button instances
 conn4_button=button.Button(250, 200, conn4_img,1.2)
